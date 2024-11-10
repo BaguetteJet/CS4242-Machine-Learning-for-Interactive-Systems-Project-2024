@@ -1,0 +1,31 @@
+Hello, if you are reading this, I am on holiday.
+
+Step 1: Add library
+
+Begin by adding the included "ei-shout-recognition_v5-arduino-1.0.9.zip"
+folder to your Arduino IDE library.
+In Arduino IDE:
+select: Sketch > Include Library > Add .ZIP Library...
+select: "ei-shout-recognition_v5-arduino-1.0.9.zip" from computer
+
+Step 2: Upload code to Arduino
+
+This step will take 10-45mins. Open the Arduino code in IDE from the 
+included "timing_maxmsp5" folder. Plug in Arduino Nano 33 BLE sense and 
+make sure it is connected correctly. Upload the code to the Arduino. 
+The first compile will take really long, however it will only take 1-2mins
+any time after that. Continue once upload is completed successfully.
+
+Step 3: Connect MaxMSP
+
+Open the "finalprojvoicerecShoutv2.maxpat" patch. Plug in the Arduino and
+make sure the serial is not busy. Press "open", setting should display in 
+console. Press "start" to begin. Follow instruction in MaxMSP patch.
+
+Step 4: Next...
+
+If everything works as intended, connect the OUTPUT to the rest of the
+project. We can us the KA-WA-BONGA message box to display the final score
+and to display messages, you just need to change the message box input.
+
+contact me if problem!
